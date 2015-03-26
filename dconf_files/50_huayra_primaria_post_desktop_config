@@ -1,0 +1,172 @@
+[org/mate/panel/toplevels/panel_inferior]
+screen=0
+monitor=0
+orientation='bottom'
+
+[org/mate/panel/objects/object_0]
+object-type='launcher'
+toplevel-id='panel_inferior'
+position=877
+panel-right-stick=false
+launcher-location='/usr/share/applications/huayra-motion.desktop'
+
+[org/mate/panel/objects/object_1]
+object-type='launcher'
+toplevel-id='panel_inferior'
+position=877
+panel-right-stick=false
+launcher-location='/usr/share/applications/huayra-bullets.desktop'
+
+[org/mate/panel/objects/object_2]
+object-type='launcher'
+toplevel-id='panel_inferior'
+position=877
+panel-right-stick=false
+launcher-location='/usr/share/applications/huayra-compartir.desktop'
+
+[org/mate/panel/objects/object_3]
+object-type='launcher'
+toplevel-id='panel_inferior'
+position=877
+panel-right-stick=false
+launcher-location='/usr/share/applications/caripela.desktop'
+
+[org/mate/panel/objects/object_4]
+object-type='launcher'
+toplevel-id='panel_inferior'
+position=877
+panel-right-stick=false
+launcher-location='/usr/share/applications/huayra-visor-manual.desktop'
+
+[org/mate/panel/objects/object_5]
+object-type='launcher'
+toplevel-id='panel_inferior'
+position=877
+panel-right-stick=false
+launcher-location='/usr/share/applications/synapse.desktop'
+
+[org/mate/panel/objects/object_6]
+object-type='applet'
+toplevel-id='panel_inferior'
+position=1
+panel-right-stick=false
+applet-iid='WnckletFactory::WindowListApplet'
+
+[org/mate/panel/objects/object_7]
+object-type='separator'
+toplevel-id='panel_inferior'
+position=830
+panel-right-stick=false
+
+
+#dconf write /org/mate/panel/objects/object_7/object-type "'separator'"
+#
+#dconf write /org/mate/panel/objects/object_7/toplevel-id "'panel_inferior'"
+#
+#dconf write /org/mate/panel/objects/object_7/position 830
+#
+#dconf write /org/mate/panel/objects/object_7/panel-right-stick false
+
+
+
+#dconf write /org/mate/panel/objects/object_5/object-type "'applet'"
+
+#dconf write /org/mate/panel/objects/object_5/toplevel-id "'panel_inferior'"
+#
+#dconf write /org/mate/panel/objects/object_5/position 44
+#
+#dconf write /org/mate/panel/objects/object_5/panel-right-stick false
+#
+#dconf write /org/mate/panel/objects/object_5/applet-iid "'WnckletFactory::WindowListApplet'"
+
+
+
+[org/mate/panel/general]
+toplevel-id-list=['top', 'panel_inferior']
+object-id-list=['menu', 'workspace-switch', 'clock', 'notification-area', 'control-center', 'shutdown', 'object_0', 'object_1', 'object_2', 'object_3', 'object_4', 'object_5', 'object_6', 'object_7']
+
+
+
+
+
+#dconf write /org/mate/panel/general/object-id-list "['menu', 'workspace-switch', 'clock', 'notification-area', 'control-center', 'shutdown', 'object_0', 'object_1', 'object_2', 'object_3', 'object_4', 'object_6', 'object_5', 'object_7']"
+
+#[/org/mate/panel/objects/object_1]
+#object-type='launcher'
+#toplevel-id='panel_inferior'
+#position=877
+#panel-right-stick=false
+#launcher-location='/usr/share/applications/huayra-motion.desktop'
+#
+#[/org/mate/panel/objects/object_2]
+#object-type='launcher'
+#toplevel-id='panel_inferior'
+#position=877
+#panel-right-stick=false
+#launcher-location='/usr/share/applications/huayra-bullets.desktop'
+#
+#[/org/mate/panel/objects/object_3]
+#object-type='launcher'
+#toplevel-id='panel_inferior'
+#position=877
+#panel-right-stick=false
+#launcher-location='/usr/share/applications/huayra-compartir.desktop'
+#
+#[/org/mate/panel/objects/object_4]
+#object-type='launcher'
+#toplevel-id='panel_inferior'
+#position=877
+#panel-right-stick=false
+#launcher-location='/usr/share/applications/caripela.desktop'
+#
+#[/org/mate/panel/objects/object_5]
+#object-type='launcher'
+#toplevel-id='panel_inferior'
+#position=877
+#panel-right-stick=false
+#launcher-location='/usr/share/applications/huayra-visor-manual.desktop'
+#
+#[/org/mate/panel/objects/object_6]
+#object-type='launcher'
+#toplevel-id='panel_inferior'
+#position=877
+#panel-right-stick=false
+#launcher-location='/usr/share/applications/synapse.desktop'
+#
+#[/org/mate/panel/general/object-id-list]
+#object-id-list=['menu', 'workspace-switch', 'clock', 'notification-area', 'control-center', 'shutdown', 'object_0', 'object_1', 'object_2', 'object_3', 'object_4', 'object_6', 'object_5', 'object_7']
+
+
+
+
+
+#dconf write /org/mate/panel/objects/object_6/launcher-location "'/usr/share/applications/synapse.desktop'"
+
+#dconf write /org/mate/panel/general/object-id-list "['menu', 'workspace-switch', 'clock', 'notification-area', 'control-center', 'shutdown', 'object_0', 'object_1', 'object_2', 'object_3', 'object_4', 'object_5', 'object_6']"
+
+#dconf write /org/mate/panel/general/object-id-list "['menu', 'workspace-switch', 'clock', 'notification-area', 'control-center', 'shutdown', 'object_0', 'object_1', 'object_2', 'object_3', 'object_4', 'object_6']"
+
+#dconf write /org/mate/panel/objects/object_5/object-type "'applet'"
+
+#dconf write /org/mate/panel/objects/object_5/toplevel-id "'panel_inferior'"
+#
+#dconf write /org/mate/panel/objects/object_5/position 44
+#
+#dconf write /org/mate/panel/objects/object_5/panel-right-stick false
+#
+#dconf write /org/mate/panel/objects/object_5/applet-iid "'WnckletFactory::WindowListApplet'"
+#
+#dconf write /org/mate/panel/general/object-id-list "['menu', 'workspace-switch', 'clock', 'notification-area', 'control-center', 'shutdown', 'object_0', 'object_1', 'object_2', 'object_3', 'object_4', 'object_6', 'object_5']"
+#
+#dconf write /org/mate/panel/objects/object_5/position 1
+#
+#dconf write /org/mate/panel/objects/object_7/object-type "'separator'"
+#
+#dconf write /org/mate/panel/objects/object_7/toplevel-id "'panel_inferior'"
+#
+#dconf write /org/mate/panel/objects/object_7/position 830
+#
+#dconf write /org/mate/panel/objects/object_7/panel-right-stick false
+
+#dconf write /org/mate/panel/general/object-id-list "['menu', 'workspace-switch', 'clock', 'notification-area', 'control-center', 'shutdown', 'object_0', 'object_1', 'object_2', 'object_3', 'object_4', 'object_6', 'object_5', 'object_7']"
+

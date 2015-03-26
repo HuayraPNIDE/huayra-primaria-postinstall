@@ -1,0 +1,12 @@
+Source: huayra-primaria-postinstall
+Section: x11
+Priority: extra
+Maintainer: Sebastian Alvarez <seba.alvarez16@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+
+Package: huayra-primaria-postinstall
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, node-webkit
+Description: Paquete de configuraciones finales para Huayra Primaria
+ Paquete de configuraciones finales para Huayra Primaria
