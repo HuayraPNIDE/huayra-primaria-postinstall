@@ -5,6 +5,10 @@ set -e
 
 if [ "$1" = "configure" ]; then
 
+  echo "Estableciedo fish como shell por defecto"
+  chsh -s /usr/bin/fish
+
+
   echo "Actualizando dconf"
   dconf update
 
